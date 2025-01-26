@@ -9,7 +9,7 @@ const cors_1 = __importDefault(require("cors"));
 const dbConnect_1 = __importDefault(require("./dbConnect"));
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)({
-    origin: [""],
+    origin: ["https://pay-mate-gamma.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
 }));
